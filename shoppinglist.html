@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPPING LIST</title>
+    <link rel="stylesheet" href="shoppinglist.css" />
+  </head>
+  <body>
+    <div id="app">
+        <h1>Shopping List</h1>
+        <form id="shopping-form">
+            <div>
+              <label for="item-name">Item name:</label>
+              <input type="text" id="item-name" required/>
+            </div>
+            <button type="submit">Add Item</button>
+            <button type="button" id="clear-list">Clear List</button>
+        </form>
+        <ul id="item-list"></ul>
+    </div>
+    <script src="shoppinglist.js"></script>
+  </body>
+</html>
