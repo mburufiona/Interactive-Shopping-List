@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+    color: green;
+  }
+  
+  body {
+    font-size: larger;
+    background: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    font-size: larger;
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  #item-list {
+    color: darkblue;
+    font-size: medium;
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    width: 100%;
+  }
+  
+  #item-list li {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #item-list li.purchased {
+    text-decoration: line-through;
+  }
+  
+  #item-list li input {
+    font-size: medium;
+    border: none;
+    outline: none;
+    padding: 4px;
+    width: 80%;
+  }
+  
+  #item-list li input:focus {
+    border: 1px solid blue;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  

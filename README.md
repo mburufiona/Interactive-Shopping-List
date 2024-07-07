@@ -5,8 +5,26 @@
 - **Add Item:** *adds shopping list items.*
 - **Clear List:** *deletes the list of shopping items added.*
 ## Setup
+- fork
+  ```bash
+  https://github.com/mburufiona/Interactive-Shopping-List.git
+  ```
+    *(use the above link to fork the repo)*
+
+
 - clone the repo.
    ```bash
+   git@github.com:mburufiona/Interactive-Shopping-List.git
+   ```
+navigate projects
+
+```bash
+git push origin main
+```
+
+
+
+
 
 
 ## Files Used To Create This Program
@@ -16,3 +34,5 @@
 
 `JavaScript` -  it ibrings functionality to the shopping list website, aking it interactive and user-friendly.
 
+### Author
+- ***FIONA NDUTA MBURU***
